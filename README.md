@@ -4,6 +4,8 @@ The CGC Monitor provides two primary functions: 1)forensic analysis for purposes
 and, 2) automated support for analysis of CGC binaries via an Ida Pro gdb client.  Both functions rely on the Simics full system 
 simulator.  This paper describes the CGC Monitor https://www.dfrws.org/sites/default/files/session-files/paper_cyber_grand_challenge_cgc_monitor_-_a_vetting_system_for_the_darpa_cyber_grand_challenge.pdf
 
+**(This project has evolved to a more general purpose reverse engineering platform at https://github.com/mfthomps/RESim)**
+
 The CGC Monitor lacks complete documentation, though the basic chain of scripts and dependencies can be derived by starting with:
 zk/monitorUtils/cgc-monitor.md to  understand the forensic vetting function used in CFE; and with
 idaClient/README_IDA_CLIENT.md for the analyst functions. The Ida client is also summerized in [idaClient.pdf](idaClient.pdf)
